@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExpiredToken" xml:space="preserve">
+    <value>Token đã hết hạn</value>
+  </data>
+  <data name="strLuaChonSai" xml:space="preserve">
+    <value>Lựa chọn thất bại!</value>
+  </data>
+  <data name="QuyenBC_BAOCAO" xml:space="preserve">
+    <value>Mẫu báo cáo</value>
+  </data>
+  <data name="QuyenBC_TONGHOP" xml:space="preserve">
+    <value>Báo cáo tổng hợp</value>
+  </data>
+  <data name="QuyenDM_DANHMUC" xml:space="preserve">
+    <value>Cấu hình danh mục</value>
+  </data>
+  <data name="QuyenDM_DANHMUC_ITEM" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="QuyenHT_BACKUP" xml:space="preserve">
+    <value>Sao lưu phục hồi</value>
+  </data>
+  <data name="QuyenHT_CAUHINH" xml:space="preserve">
+    <value>Cấu hình hệ thống</value>
+  </data>
+  <data name="QuyenHT_CAUHINHDV" xml:space="preserve">
+    <value>Cấu hình hệ thống đơn vị</value>
+  </data>
+  <data name="QuyenHT_CHONDV" xml:space="preserve">
+    <value>Người dùng đơn vị</value>
+  </data>
+  <data name="QuyenHT_LICHSU" xml:space="preserve">
+    <value>Lịch sử hệ thống</value>
+  </data>
+  <data name="QuyenHT_MENU" xml:space="preserve">
+    <value>Menu hệ thống</value>
+  </data>
+  <data name="QuyenHT_MENUITEM" xml:space="preserve">
+    <value>Liên kết menu</value>
+  </data>
+  <data name="QuyenHT_NGUOIDUNG" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="QuyenHT_NHOMQUYEN" xml:space="preserve">
+    <value>Nhóm quyền</value>
+  </data>
+  <data name="QuyenHT_THONGBAO" xml:space="preserve">
+    <value>Thông báo hệ thống</value>
+  </data>
+  <data name="QuyenHT_TINNHAN" xml:space="preserve">
+    <value>Tin nhắn</value>
+  </data>
+  <data name="strBaoCaoKhongTonTai" xml:space="preserve">
+    <value>Báo cáo không tồn tại</value>
+  </data>
+  <data name="strDangNhapSai" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng</value>
+  </data>
+  <data name="strFolderSign" xml:space="preserve">
+    <value>//FileSign</value>
+  </data>
+  <data name="strKhongCoQuyen" xml:space="preserve">
+    <value>Bạn không có quyền truy cập chức năng này</value>
+  </data>
+  <data name="strKhongEmail" xml:space="preserve">
+    <value>Người dùng không có thông tin Email.</value>
+  </data>
+  <data name="strKhongHoTroKySo" xml:space="preserve">
+    <value>Tập tin không được hỗ trợ ký số</value>
+  </data>
+  <data name="strKhongHoTroXem" xml:space="preserve">
+    <value>Tệp tin không được hỗ trợ xem trên trình duyệt</value>
+  </data>
+  <data name="strMenuAdmin" xml:space="preserve">
+    <value>MenuAdmin</value>
+  </data>
+  <data name="strMenuUser" xml:space="preserve">
+    <value>MenuUser</value>
+  </data>
+  <data name="strQuaLanDangNhap" xml:space="preserve">
+    <value>Tài khoản đã bị khoá do đăng nhập sai quá số lần cho phép</value>
+  </data>
+  <data name="strSaiMaXacNhan" xml:space="preserve">
+    <value>Mã xác nhận không đúng</value>
+  </data>
+  <data name="strSaiTenDangNhap" xml:space="preserve">
+    <value>Tên đăng nhập không tồn tại</value>
+  </data>
+  <data name="QuyenHT_TEP" xml:space="preserve">
+    <value>Tệp tin</value>
+  </data>
+  <data name="QuyenHT_FILE" xml:space="preserve">
+    <value>Lưu trữ tài liệu, báo cáo</value>
+  </data>
+  <data name="QuyenDM_TUDIEN" xml:space="preserve">
+    <value>Cấu hình từ điển</value>
+  </data>
+  <data name="QuyenDM_TUDIEN_ITEM" xml:space="preserve">
+    <value>Cấu hình từ vựng</value>
+  </data>
+  <data name="QuyenTB_THIETBI" xml:space="preserve">
+    <value>Thiết bị </value>
+    <comment>Thiết bị </comment>
+  </data>
+  <data name="QuyenTB_MUON" xml:space="preserve">
+    <value>Đăng ký mượn</value>
+  </data>
+  <data name="QuyenTB_MUONTRA" xml:space="preserve">
+    <value>Quản lý mượn, trả thiết bị</value>
+  </data>
+  <data name="QuyenTB_BANGIAO" xml:space="preserve">
+    <value>Quản lý bàn giao</value>
+  </data>
+  <data name="QuyenTB_KEYPM" xml:space="preserve">
+    <value>Quản lý key bản quyền</value>
+  </data>
+  <data name="QuyenTB_DEXUAT" xml:space="preserve">
+    <value>Đề xuất mua thiết bị</value>
+  </data>
+  <data name="QuyenTB_IMPORT" xml:space="preserve">
+    <value>Import dữ liệu cũ</value>
+  </data>
+  <data name="QuyenTB_KIEMKE" xml:space="preserve">
+    <value>Kiểm kê thiết bị</value>
+  </data>
+  <data name="QuyenTB_CHUONGTRINH" xml:space="preserve">
+    <value>Quản lý chương trình mượn</value>
+  </data>
+</root>
