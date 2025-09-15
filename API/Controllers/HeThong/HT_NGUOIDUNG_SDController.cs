@@ -45,7 +45,7 @@ namespace API.Controllers.HeThong
                     var ac = lstHT_NGUOIDUNG_SD.FirstOrDefault(c => c.NGUOIDUNG_ID == obj.ID);
                     lstHT_NGUOIDUNG_SDInfo.Add(new HT_NGUOIDUNG_SDInfo { ID = ac == null ? 0 : ac.ID, NGUOIDUNG_ID = obj.ID, DOITUONG_ID = DOITUONG_ID, TEN_DANG_NHAP = obj.TEN_DANG_NHAP, CHON = ac != null, DATA = ac?.DATA });
                 }
-                return ObjectResult(lstHT_NGUOIDUNG_SDInfo);
+                return ObjectResult(lstHT_NGUOIDUNG_SDInfo.OrderByDescending(x=> x.CHON).ToList());
             }
             else if (op == "ListAccess")
             {
@@ -86,7 +86,7 @@ namespace API.Controllers.HeThong
                     }
                 }
 
-                return ObjectResult(lstHT_NGUOIDUNG_SDInfo);
+                return ObjectResult(lstHT_NGUOIDUNG_SDInfo.OrderByDescending(x => x.CHON).ToList());
             }
             return new BadRequestResult();
         }

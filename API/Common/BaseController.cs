@@ -445,7 +445,7 @@ namespace API.Common
                 if (wh != null && wh.Item1 != "") items = items.Where(wh.Item1, wh.Item2.ToArray());
             }
             //search
-            else if (searchValue != null)
+            else if (searchValue != null || searchValue != "")
             {
                 HttpContext.Session.SetInt32("posParas", 0);
                 string sfilter = "";
@@ -549,7 +549,7 @@ namespace API.Common
                     switch (oFilter[1].ToString())
                     {
                         case "contains":
-                            sql = String.Format((oFilter[2].ToString().Trim() != "" ? "{0} != null && " : "") + "{0}.ToLower().Contains(@{1})", field, posParas);
+                            sql = String.Format((oFilter[2].ToString().Trim() != "" ? "{0} != null && " : "") + "{0}.ToString().ToLower().Contains(@{1})", field, posParas);
                             break;
                         case "notcontains":
                             sql = String.Format((oFilter[2].ToString().Trim() != "" ? "{0} != null && " : "") + "!{0}.ToLower().Contains(@{1})", field, posParas);

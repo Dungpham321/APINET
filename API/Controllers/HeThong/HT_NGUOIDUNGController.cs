@@ -125,7 +125,7 @@ namespace API.Controllers.HeThong
                         var objHT_NGUOIDUNG = item.ToObject<HT_NGUOIDUNG>();
                         objHT_NGUOIDUNG.MAT_KHAU = objHT_NGUOIDUNG.MAT_KHAU.EncodePassword();
                         objHT_NGUOIDUNG.NGAY_TAO = DateTime.Now;
-                        objHT_NGUOIDUNG.TRANG_THAI = (int)TrangThai.CHO_DUYET;
+                        //objHT_NGUOIDUNG.TRANG_THAI = (int)TrangThai.CHO_DUYET;
                         objHT_NGUOIDUNG.SAI_MAT_KHAU = 0;
                         if (!objHT_NGUOIDUNG.TFA.HasValue) objHT_NGUOIDUNG.TFA = false;
                         objHT_NGUOIDUNG.NGAY_MAT_KHAU = DateTime.Now;
